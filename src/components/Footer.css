@@ -1,0 +1,101 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+   
+  }
+  
+  .footer h4 {
+    color: #fff;
+    text-align: center;
+    
+  }
+  
+  .footer p {
+    color: #ccc;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+   
+  }
+  .about h4  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .contact{
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  
+  .footer ul li {
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+   
+  }
+  .whatapp{
+    width: 2.5%;
+    height: 2.5%;
+    margin-left: 40%;
+  }
+  .insta{
+    width: 2.5%;
+    height: 2.5%;
+    margin-left: 5%;
+    margin-top: 5px;
+  }
+  .face{
+    width: 2.5%;
+    height: 2.5%;
+    margin-left: 5%;
+  }
+  
+  /* Media Query for Small Devices */
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .footer .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  /* Media Query for Mobile Devices (320px width) */
+  @media (max-width: 320px) {
+    .footer h4 {
+      font-size: 18px;
+    }
+  
+    .footer p {
+      font-size: 14px;
+    }
+  
+    .footer ul li {
+      font-size: 14px;
+    }
+    .whatapp{
+      width: 5.5%;
+      height: 5.5%;
+      margin-left: 40%;
+    }
+    .insta{
+      width: 5.5%;
+      height: 5.5%;
+      margin-left: 5%;
+      margin-top: 5px;
+    }
+    .face{
+      width: 5.5%;
+      height: 5.5%;
+      margin-left: 5%;
+    }
+  }
+  

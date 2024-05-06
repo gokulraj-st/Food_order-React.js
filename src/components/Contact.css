@@ -1,0 +1,64 @@
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+  }
+  
+  .contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact ul li {
+    margin-bottom: 5px;
+  }
+  
+  .contact form {
+    margin-top: 20px;
+  }
+  
+  .contact form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact form input[type="text"],
+  .contact form input[type="email"],
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact form textarea {
+    resize: vertical;
+  }
+  
+  .contact form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 600px) {
+    .contact {
+      padding: 10px;
+    }
+  }
+  

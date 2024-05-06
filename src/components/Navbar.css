@@ -1,0 +1,136 @@
+ .navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo{
+    width: 150px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+   border: 1px solid tomato;
+   padding: 10px 30px;
+border-radius: 50px;
+cursor: pointer;
+transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+.navbar li{
+    cursor: pointer;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid tomato;
+
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+
+
+
+.navbar-search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .navbar-search-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .navbar-search-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+ 
+
+.navbar-cart {
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .navbar-cart img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  
+@media (max-width: 320px) {
+
+.navbar-menu{
+    display: none;
+}
+.navbar-right input{
+   
+    display:none;
+    
+}
+.navbar-search-button{
+    display: none;
+}
+
+.navbar-cart{
+   display: none;
+}
+.btn{
+    display: none;
+}
+   
+}  
+
+ 
