@@ -6,6 +6,25 @@ Welcome to our Online Food Order project! 🎉
 
 This project allows you to conveniently order delicious food from the comfort of your home. 🏠 Whether you're craving a burger, tacos, salad, sushi, or dessert, we've got you covered!
 
+## Technologies Used 💻
+
+HTML
+
+CSS
+
+JavaScript
+
+Media Query
+
+
+ ## How to Run
+Clone the repository.
+Navigate to the project directory.
+Install dependencies using `npm install`.
+Start the frontend server using `npm start` .
+Start the backend server using the npm run server.
+Access the application in your browser at `http://localhost:3000` .
+
 ## Open Your Browser:
 Click here to view the project, or manually navigate to http://localhost:3000 `http://localhost:3000` in your browser.
 
