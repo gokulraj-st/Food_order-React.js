@@ -6,14 +6,10 @@ Welcome to our Online Food Order project! 🎉
 
 This project allows you to conveniently order delicious food from the comfort of your home. 🏠 Whether you're craving a burger, tacos, salad, sushi, or dessert, we've got you covered!
 
-How to Run the Project:
-
-Clone the Repository:
-
-Open Your Browser:
+## Open Your Browser:
 Click here to view the project, or manually navigate to http://localhost:3000 in your browser.
 
-Project Features:
+## Project Features:
 
 🍽️ Interactive Menu: Explore a diverse menu of mouth-watering dishes.
 
@@ -27,7 +23,7 @@ Project Features:
 
 🎨 Beautiful UI: Delightful user interface designed for an enjoyable browsing experience.
 
-Contributing:
+## Contributing:
 
 We welcome contributions from developers of all skill levels! Whether it's fixing a bug, implementing a new feature, or improving documentation, every contribution is valuable. Feel free to fork the repository and submit a pull request.
 
