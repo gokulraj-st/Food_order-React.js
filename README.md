@@ -7,7 +7,7 @@ Welcome to our Online Food Order project! 🎉
 This project allows you to conveniently order delicious food from the comfort of your home. 🏠 Whether you're craving a burger, tacos, salad, sushi, or dessert, we've got you covered!
 
 ## Open Your Browser:
-Click here to view the project, or manually navigate to http://localhost:3000 in your browser.
+Click here to view the project, or manually navigate to [http://localhost:3000]`http://localhost:3000` in your browser.
 
 ## Project Features:
 
